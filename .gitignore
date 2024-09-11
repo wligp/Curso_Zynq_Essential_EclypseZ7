@@ -1,0 +1,40 @@
+*.o
+*.jou
+*.log
+*.str
+*.xpr
+*.Xil
+*.cache
+*.data
+*.runs
+*.hw
+*.zip
+*.html
+*.bit
+*.elf
+*.bin
+*config_settings
+*example_designs
+*.debug
+*~
+
+# sdk exclusions
+.metadata
+**/*RemoteSystemsTempFiles
+**/*Debug
+**/*Release
+**/.metadata
+**/*webtalk
+.sdk
+.temp
+Packages/
+
+# ignore everything in the hw_platform
+*hw_platform*/*
+# except
+!*hw_platform*/*.hdf
+!*hw_platform*/*.bit
+!*hw_platform*/.*project
+
+
+
